@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0d25e94f045a49188b8c5ed2b88ed4d9/artifacts
+end_time: 1741606508308
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d25e94f045a49188b8c5ed2b88ed4d9
+run_name: clean-grub-804
+run_uuid: 0d25e94f045a49188b8c5ed2b88ed4d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741606503361
+status: 4
+tags: []
+user_id: hp

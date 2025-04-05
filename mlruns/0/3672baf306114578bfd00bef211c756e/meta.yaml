@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3672baf306114578bfd00bef211c756e/artifacts
+end_time: 1741598812528
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3672baf306114578bfd00bef211c756e
+run_name: fun-lark-390
+run_uuid: 3672baf306114578bfd00bef211c756e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741598803269
+status: 4
+tags: []
+user_id: hp

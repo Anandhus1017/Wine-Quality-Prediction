@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7b7e60e7292543afad2fe0c79198d6c0/artifacts
+end_time: 1741764849465
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b7e60e7292543afad2fe0c79198d6c0
+run_name: rogue-stork-954
+run_uuid: 7b7e60e7292543afad2fe0c79198d6c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741764845256
+status: 4
+tags: []
+user_id: hp

@@ -32,8 +32,12 @@ class ModelEvaluation:
         test_x = test_data.drop([self.config.target_column], axis=1)
         test_y = test_data[[self.config.target_column]]
 
+        os.environ["MLFLOW_TRACKING_USERNAME"] = os.getenv("DAGSHUB_USER")
+        os.environ["MLFLOW_TRACKING_PASSWORD"] = os.getenv("DAGSHUB_TOKEN")
 
-        mlflow.set_registry_uri(self.config.mlflow_uri)
+
+
+        mlflow.set_tracking_uri("https://dagshub.com/ads994672/my-first-repo.mlflow")
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
 
@@ -61,8 +65,10 @@ class ModelEvaluation:
                 # There are other ways to use the Model Registry, which depends on the use case,
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+                mlflow.sklearn.log_model(model, "model")
             else:
                 mlflow.sklearn.log_model(model, "model")
 
     
+
+

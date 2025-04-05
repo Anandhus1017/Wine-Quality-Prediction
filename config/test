@@ -1,0 +1,17 @@
+import yaml
+
+config_path = "config/config.yaml"
+
+try:
+    with open(config_path, "r") as file:
+        config = yaml.safe_load(file)
+    print("✅ YAML is correctly formatted!")
+except yaml.YAMLError as e:
+    print("❌ YAML has an error:", e)
+l
+
+
+# with open("config/config.yaml", "rb") as file:
+#     content = file.read()
+
+# print(content)  # This will show any hidden characters
